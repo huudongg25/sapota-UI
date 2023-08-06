@@ -1,0 +1,86 @@
+.breadcrumb-area {
+  background-position: center center;
+  background-size: cover;
+  @media screen and (max-width: 992px) {
+    padding-top: 200px!important;
+    padding-bottom: 200px!important;
+  }
+}
+
+@media (max-width:992px) {
+  .breadcrumb-text.text-center p {
+    margin-top: 20px;
+  }
+}
+
+.breadcrumb-menu {
+  margin-top: 25px;
+  @media screen and (max-width: 375px) {
+    margin-top: 23px!important;
+  }
+}
+
+.breadcrumb-area.bg-bred {
+  background: #0A1C2A;
+}
+
+.breadcrumb-spacing {
+  padding-bottom: 200px;
+}
+
+.breadcrumb-spacing {
+  padding-top: 200px;
+}
+
+.breadcrumb-text {
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumb-text > h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  line-height: 1;
+  font-family: $c_sem;
+  color: $white;
+  @media screen and (max-width: 414px) {
+    font-size: 34px!important;
+  }
+}
+
+.breadcrumb-menu li {
+  display: inline-block;
+  position: relative;
+  padding: 0 19px;
+}
+
+.breadcrumb-menu li a {
+  color: white;
+  font-size: 17px;
+  font-family: $c_reg;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+}
+
+.breadcrumb-menu li::before {
+  content: "||";
+  display: inline-block;
+  padding-bottom: 0;
+  position: absolute;
+  top: 0px;
+  color: $white;
+  left: -7px;
+}
+
+.breadcrumb-menu li:first-child::before {
+  display: none;
+}
+
+.breadcrumb-menu span {
+  color: $white;
+  font-size: 17px!important;
+  font-family: $karla;
+  text-transform: capitalize;
+}
+

@@ -1,0 +1,178 @@
+ .container.officeMain .section-heading {
+  text-align: center;
+}
+
+ .container.officeMain .grid {
+   margin: 50px 0 100px 0;
+   gap: 0px!important;
+   display: grid!important;
+   grid-template-rows: 1fr!important;
+   grid-template-columns: repeat(4, 1fr)!important;
+   grid-column-gap: 10px!important;
+   grid-row-gap: 10px!important;
+  @media screen and (max-width: 992px) {
+   grid-template-columns: repeat(2, 1fr)!important;
+  }
+  @media screen and (max-width: 413px) {
+   grid-template-columns: repeat(1, 1fr)!important;
+  }
+}
+
+ .container.officeMain .grid .office {
+  height: 21rem;
+  border-radius: .6rem;
+  overflow: hidden;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: flex-end
+}
+
+ .container.officeMain .grid .office__backdrop {
+  background-color: rgba(22, 104, 178, .8);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .65s cubic-bezier(.4, 0, .2, 1)
+}
+
+ .container.officeMain .grid .office__content {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  line-height: 2.4rem;
+  color: #fff;
+  z-index: 1;
+  max-height: 4.5rem;
+  height: 16.5rem;
+  width: 100%;
+  transition: max-height .65s cubic-bezier(.4, 0, .2, 1);
+  padding: 1.4rem
+}
+
+ .container.officeMain .grid .office__content__city,  .container.officeMain .grid .office__content__country {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  font-weight: 500
+}
+
+ .container.officeMain .grid .office__content__city {
+  font-size: 1rem
+}
+
+ .container.officeMain .grid .office__content__country {
+  text-transform: uppercase
+}
+
+ .container.officeMain .grid .office__content__address,  .container.officeMain .grid .office__content__tel {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-family: $karla;
+}
+
+ .container.officeMain .grid .office__content .divide-line {
+  width: 2.8rem;
+  height: 0;
+  border: 1px solid #fff;
+  margin: 1rem auto
+}
+
+ .container.officeMain .grid .office:hover .office__backdrop {
+  opacity: 1
+}
+
+ .container.officeMain .grid .office:hover .office__content {
+  max-height: 21rem
+}
+
+@media screen and (min-width: 576px) {
+   .container.officeMain {
+    margin-top: 125px;
+    text-align: left
+  }
+
+   .container.officeMain .grid {
+    grid-gap: 3rem
+  }
+
+   .container.officeMain .grid .office {
+    height: 30rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end
+  }
+
+   .container.officeMain .grid .office__backdrop {
+    background-color: rgba(22, 104, 178, .8);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .65s cubic-bezier(.4, 0, .2, 1)
+  }
+
+   .container.officeMain .grid .office__content {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    line-height: 2.4rem;
+    color: #fff;
+    z-index: 1;
+    max-height: 8.5rem;
+    height: 26.5rem;
+    width: 100%;
+    transition: max-height .65s cubic-bezier(.4, 0, .2, 1);
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+     padding: 1rem 1rem;
+    }
+  }
+
+   .container.officeMain .grid .office__content__city,  .container.officeMain .grid .office__content__country {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    font-family: $karla;
+  }
+
+   .container.officeMain .grid .office__content__address {
+    font-size: 1.3rem;
+    line-height: 2.4rem
+  }
+
+   .container.officeMain .grid .office__content__tel {
+    font-size: 1.3rem;
+    line-height: 2.1rem
+  }
+
+   .container.officeMain .grid .office__content .divide-line {
+    margin: 1.2rem auto .8rem
+  }
+
+   .container.officeMain .grid .office:hover .office__content {
+    max-height: 30rem
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+ @media screen and (max-width: 991px) {
+
+ }

@@ -1,0 +1,654 @@
+.footer-area {
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer-logo {
+  margin-bottom: 29px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.footer-text p {
+  margin-bottom: 0;
+  line-height: 30px;
+}
+
+.footer-icon {
+  margin-top: 22px;
+
+  & a {
+    color: #cbcbcb;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: .3s;
+    border: 1px solid #cbcbcb;
+
+    &:hover {
+      background: $theme-color;
+      color: $white;
+      border-color: $theme-color;
+    }
+  }
+}
+
+.footer-title {
+  font-size: 20px;
+  font-family: "cerebri_sansbold";
+  position: relative;
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+
+  &::before {
+    position: absolute;
+    height: 3px;
+    width: 15px;
+    background: $theme-color;
+    left: 0;
+    content: "";
+    bottom: 0;
+  }
+
+  &::after {
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    background: $theme-color;
+    left: 25px;
+    content: "";
+    bottom: 0;
+  }
+
+}
+
+.fotter-menu {
+  & li {
+    padding-bottom: 10px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  & a {
+    color: #696969;
+    font-size: 15px;
+    font-family: $c_reg;
+    transition: .3s;
+
+    &:hover {
+      color: $theme-color;
+    }
+  }
+}
+
+.footer-news {
+  background: #fff;
+  padding: 20px;
+}
+
+.footer-news ul li {
+  overflow: hidden;
+  padding-bottom: 15px;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.footer-news-img {
+  float: left;
+  margin-right: 15px;
+}
+
+.footer-news-text h5 {
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 0;
+
+  & a {
+    color: #a2a2a2;
+    transition: .3s;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+.footer-info p {
+  margin-bottom: 19px;
+  font-family: $karla;
+}
+
+.contact-link li {
+  margin-bottom: 18px;
+
+  & :last-child {
+    margin-bottom: 0;
+  }
+
+  .contact-address-text {
+    h4 {
+      font-family: $c_sem;
+    }
+  }
+}
+
+.contact-address-icon {
+  float: left;
+  margin-right: 11px;
+
+  & i {
+    font-size: 15px;
+    color: #096bd8;
+    position: relative;
+    top: -4px;
+  }
+}
+
+.contact-address-text {
+  overflow: hidden;
+
+  & h4 {
+    font-size: 15px;
+    color: #696969;
+    margin-bottom: 0;
+    font-family: $c_reg;
+  }
+
+  & p {
+    margin-bottom: 20px;
+  }
+}
+
+.footer-bg-bottom {
+  padding: 25px 0px;
+}
+
+.copyright p {
+  margin-bottom: 0;
+}
+
+.footer-bottem-text p {
+  margin-bottom: 0;
+}
+
+.footer-bottem-text a {
+  color: $theme-color;
+}
+
+.footer-news-text {
+  overflow: hidden;
+}
+
+.footer-2-wrapper .footer-text p {
+  color: #b8b8b8;
+  padding-right: 68px;
+  margin-bottom: 30px;
+}
+
+.footer-2-wrapper .footer-title {
+  color: $white;
+}
+
+.footer-2-wrapper .fotter-menu a {
+  color: #b8b8b8;
+  transition: .3s;
+}
+
+.footer-2-wrapper .fotter-menu a:hover {
+  color: $theme-color;
+}
+
+.footer-2-wrapper .footer-info p {
+  color: #b8b8b8;
+}
+
+.footer-2-wrapper .contact-address-text h4 {
+  color: #b8b8b8;
+}
+
+.footer-2-bottom {
+  border-top: 1px solid #1b2f3e;
+}
+
+.footer-2-bottom .copyright p {
+  color: #b8b8b8;
+}
+
+.footer-2-bottom .copyright p a {
+  color: $theme-color;
+}
+
+.footer-2-bottom .footer-bottem-text p {
+  color: #b8b8b8;
+}
+
+.footer-2-icon {
+  & a {
+    height: 60px;
+    width: 60px;
+    background: #1b2f3e;
+    line-height: 60px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.8;
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background: $theme-color;
+      color: $white;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.footer-2-menu li {
+  float: left;
+  width: 50%;
+}
+
+.footer-2-news {
+  background: 0;
+  padding: 0;
+}
+
+.footer-2-news .footer-news-text h5 a {
+  color: #696969;
+  transition: .3s;
+}
+
+.footer-2-news .footer-news-text h5 a:hover {
+  color: $black;
+}
+
+.footer-3-icon a {
+  background: $white;
+  color: #5aa7fd;
+}
+
+.footer-3-bottom {
+  border-top: 2px solid #ecf1f4;
+}
+
+.footer-3-bottom .copyright p a {
+  color: $theme-color;
+}
+
+.footer-4-icon {
+  margin-top: 36px;
+}
+
+.footer-4-icon a {
+  height: 45px;
+  width: 45px;
+  background: #1b2f3e;
+  line-height: 45px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  transition: .3s;
+  margin-right: 5px;
+  color: #cbcbcb;
+  font-size: 14px;
+}
+
+.subscribes-form form input {
+  border: 0;
+  border-radius: 5PX;
+  height: 60px;
+  padding: 0 25px;
+  width: 100%;
+  background: $white;
+  color: #bababa;
+  font-size: 15px;
+}
+
+.subscribes-form form input::placeholder {
+  color: #bababa;
+  font-size: 15px;
+  font-family: $c_reg
+}
+
+.subscribes-form form input::-moz-placeholder {
+  color: #bababa;
+  font-size: 15px;
+  font-family: $c_reg;
+}
+
+.subscribes-form form button.btn {
+  margin-top: 10px;
+  padding: 20px 26px;
+}
+
+#menu-our-services {
+  li {
+    padding-bottom: 12px;
+
+    a {
+      font-size: 15px;
+      font-family: $karla;;
+    }
+  }
+
+  li:hover {
+    a {
+      color: $theme-color;
+    }
+  }
+}
+
+.footer-bottom-area {
+  background-color: #f8f8f8;
+  border-top: 1px solid #ecf1f4;
+}
+
+.footer-area {
+  .container {
+    .row {
+      display: flex;
+      justify-content: space-between;
+
+      .block {
+        display: block;
+        margin: 0 15px;
+        max-width: 300px;
+      }
+
+      .block1 {
+        display: block;
+        margin: 0 15px;
+        max-width: 200px;
+      }
+    }
+  }
+
+}
+
+.logo-light {
+  display: block;
+}
+
+.logo-dark {
+  display: none;
+}
+
+.footer-active {
+  .logo-light {
+    display: none;
+  }
+
+  .logo-dark {
+    display: block;
+  }
+
+  .footer-area {
+    background-image: url(https://www.devsnews.com/wp/torun/wp-content/uploads/2019/10/bg-7.jpg);
+    background-color: #091B29;
+    background-size: cover;
+    background-position: center center;
+
+    .block {
+      color: white;
+
+      h4, p {
+        color: white;
+      }
+    }
+
+    .footer-2-icon.footer-4-icon {
+      a {
+        background-color: white;
+
+        i {
+          color: #091B29;
+        }
+      }
+    }
+
+    .contact-link {
+      i {
+        color: white;
+      }
+    }
+
+  }
+
+  .footer-bottom-area {
+    background-image: url(https://www.devsnews.com/wp/torun/wp-content/uploads/2019/10/bg-7.jpg);
+    background-color: #091B29;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .footer-bottom-area {
+    border-top: 1px solid #1b2f3e;
+  }
+
+
+
+
+
+}
+.footer-active {
+  .view-all-our-offices.light{
+    display: none;
+  }
+  .view-all-our-offices.dark{
+    display: block;
+  }
+}
+.view-all-our-offices.light{
+  display: block;
+}
+.view-all-our-offices.dark{
+  display: none;
+}
+
+.view-all-our-offices {
+  padding-bottom: 2.75rem;
+}
+
+.view-all-our-offices {
+  font-size: 12px;
+  font-weight: 700;
+  height: 14px;
+  letter-spacing: 1.5px;
+  line-height: 14px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+
+
+.animation-btn-more-dark {
+  padding: 0;
+  font-family: $karla;
+  position: relative;
+}
+
+.animation-btn-more-dark.visited:before {
+  -webkit-animation: animation-btn-more-on-hover-reserve .3s;
+  animation: animation-btn-more-on-hover-reserve .3s;
+}
+
+.animation-btn-more-dark:before {
+  background-color: #ffffff!important;
+  border-radius: 27.5px;
+  content: "";
+  display: none;
+  height: 55px;
+  opacity: .2;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  transform: translateX(55px);
+  width: 55px;
+}
+
+.animation-btn-more-dark:after {
+  content: "+";
+  font-size: 2rem;
+  position: absolute;
+  right: -30px;
+  top: 1px;
+}
+
+.animation-btn-more-dark:hover:before {
+  -webkit-animation: animation-btn-more-on-hover .3s;
+  animation: animation-btn-more-on-hover .3s;
+  left: 100%;
+  transform: translateX(-24px);
+}
+
+
+.animation-btn-more {
+  padding: 0;
+  font-family: $karla;
+  position: relative;
+}
+
+.animation-btn-more.visited:before {
+  -webkit-animation: animation-btn-more-on-hover-reserve .3s;
+  animation: animation-btn-more-on-hover-reserve .3s;
+}
+
+.animation-btn-more:before {
+  background-color: $theme-color;
+  border-radius: 27.5px;
+  content: "";
+  display: none;
+  height: 55px;
+  opacity: .2;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  transform: translateX(55px);
+  width: 55px;
+}
+
+.animation-btn-more:after {
+  content: "+";
+  font-size: 2rem;
+  position: absolute;
+  right: -30px;
+  top: 1px;
+}
+
+.animation-btn-more:hover:before {
+  -webkit-animation: animation-btn-more-on-hover .3s;
+  animation: animation-btn-more-on-hover .3s;
+  left: 100%;
+  transform: translateX(-24px);
+}
+
+@-webkit-keyframes animation-btn-more-on-hover {
+  0% {
+    left: 0;
+    transform: translateX(0);
+    width: 55px;
+  }
+  50% {
+    left: 0;
+    transform: translateX(0);
+    width: 100%
+  }
+  to {
+    left: 100%;
+    width: 55px;
+  }
+}
+
+@keyframes animation-btn-more-on-hover {
+  0% {
+    left: 0;
+    transform: translateX(0);
+    width: 55px;
+  }
+  50% {
+    left: 0;
+    transform: translateX(0);
+    width: 100%
+  }
+  to {
+    left: 100%;
+    width: 55px;
+  }
+}
+
+@-webkit-keyframes animation-btn-more-on-hover-reserve {
+  0% {
+    right: 0;
+    transform: translateX(25px);
+    width: 55px;
+  }
+  50% {
+    right: 0;
+    transform: translateX(25px);
+    width: 100%
+  }
+  to {
+    right: 100%;
+    transform: translateX(55px);
+    width: 55px;
+  }
+}
+
+@keyframes animation-btn-more-on-hover-reserve {
+  0% {
+    right: 0;
+    transform: translateX(25px);
+    width: 55px;
+  }
+  50% {
+    right: 0;
+    transform: translateX(25px);
+    width: 100%
+  }
+  to {
+    right: 100%;
+    transform: translateX(55px);
+    width: 55px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .animation-btn-more {
+    padding: 19px 27px;
+  }
+  .animation-btn-more:before {
+    display: block;
+  }
+  .animation-btn-more:after {
+    font-size: 1.5rem;
+    right: -11px;
+    top: 16px;
+  }
+
+  .animation-btn-more-dark {
+    padding: 19px 27px;
+  }
+  .animation-btn-more-dark:before {
+    display: block;
+  }
+  .animation-btn-more-dark:after {
+    font-size: 1.5rem;
+    right: -11px;
+    top: 16px;
+  }
+}

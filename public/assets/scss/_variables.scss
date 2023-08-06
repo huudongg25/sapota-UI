@@ -1,0 +1,107 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/karla/v22/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUjm6bnEr.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/karla/v22/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUje6bg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/karla/v22/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUjm6bnEr.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/karla/v22/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUje6bg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon-v1.0/fonts/icomoon.eot?g537kf');
+  src:  url('../fonts/icomoon-v1.0/fonts/icomoon.eot?g537kf#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon-v1.0/fonts/icomoon.ttf?g537kf') format('truetype'),
+  url('../fonts/icomoon-v1.0/fonts/icomoon.woff?g537kf') format('woff'),
+  url('../fonts/icomoon-v1.0/fonts/icomoon.svg?g537kf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-js-icon-custom:before {
+  content: "\e901";
+}
+
+/* latin-ext */
+
+// Font Family
+$c_reg: 'cerebri_sansregular';
+$c_med: 'cerebri_sansmedium';
+$c_sem: 'cerebri_sanssemibold';
+$c_bold: 'cerebri_sansbold';
+
+$karla: 'Karla', sans-serif;
+
+
+// Colors ---------------
+$white: #ffffff;
+$black: #333333;
+$grey:#f8f8f8;
+$grey-2:#f4f9fc;
+$theme-color: #096bd8;
+$theme-color-2: #6100b3;
+$body-color: #696969;
+$hr-border-color:#eceff8;
+$footer-bg:#091b29;
+$tab-bg:#1a1430; 
+$tab-color:#aeabba;
+
+
+
+// Heading Color
+$heading-color: #333333;
+
+// Soft color
+$black-soft:#7e7e7e;
+$link-color:#e4ecf3;
+$border-color:#eaedff;
+
+
+// Responsive Variables
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+
